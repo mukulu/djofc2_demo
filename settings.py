@@ -11,8 +11,8 @@ MANAGERS = ADMINS
 
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 
-DATABASE_ENGINE = ''
-DATABASE_NAME = ''
+DATABASE_ENGINE = 'sqlite3'
+DATABASE_NAME = 'dev.db'
 DATABASE_USER = ''
 DATABASE_PASSWORD = ''
 DATABASE_HOST = ''
@@ -51,6 +51,7 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
+    'django.contrib.admin',
     'django.contrib.sites',
     'demoapp'
 )
